@@ -27,3 +27,4 @@ def test_product_page(browser):
     browser.find_element(By.LINK_TEXT, "Privacy Policy")
     browser.find_element(By.CSS_SELECTOR, "[value='1'][name='newsletter']")
     browser.find_element(By.CSS_SELECTOR, "[value='Continue']")
+    

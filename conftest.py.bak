@@ -3,7 +3,6 @@ import os
 
 from selenium import webdriver
 
-
 DRIVERS = os.path.expanduser("~/Drivers")
 
 
@@ -48,3 +47,4 @@ def browser(request):
         driver.maximize_window()
 
     return driver
+    

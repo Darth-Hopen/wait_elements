@@ -45,3 +45,4 @@ def test_catalog_page_footer_blocks(browser):
     wait = WebDriverWait(browser, 3)
     footer_blocks = browser.find_elements_by_xpath("//footer//ul")
     assert len(footer_blocks) == 4, "Неверное количество списков ссылок в футере"
+    

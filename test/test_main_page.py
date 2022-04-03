@@ -44,4 +44,3 @@ def test_main_page_button_cart(browser):
     browser.get(URL_MAIN)
     wait = WebDriverWait(browser, 3)
     browser.find_element_by_id("cart").click()
-    
